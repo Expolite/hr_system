@@ -1,7 +1,7 @@
 # hr_system
 
-Default:
-Email : admin@admin.com 
+Default: <br>
+Email : admin@admin.com <br>
 Password : 111
 
 Databse file: hr_db.sql
