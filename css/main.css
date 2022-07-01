@@ -1,0 +1,78 @@
+/*
+
+
+main :
+red - #E74C3C
+
+
+
+*/
+
+
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+.login_footer_container {
+	background: #F8CB2E;
+	display: block;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.login_footer {
+	padding: 10px;
+	font-family: Garamond;
+}
+
+/* return */
+.back_tbn {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.back_tbn a {
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	width: 100px;
+}
+.back_tbn a:hover {
+	background: whitesmoke;
+	color: black;
+}
+
+
+/* login / signup */
+.login_logo img {
+	height: 150px;
+	width: 150px;
+}
+
+
+/* no outline */
+.no_otlns {
+	outline: none;
+}
+
+
+
+
+@media (max-width: 800px){
+	.log_title {
+		font-size: 14px;
+	}
+	.login_container {
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+}

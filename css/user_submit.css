@@ -1,0 +1,21 @@
+
+
+.user_submit_container {
+	padding: 10px;
+}
+
+.user_submit_field {
+	margin-top: 20px;
+}
+
+/* submit btn */
+.user_submit_btn {
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 3px;
+	cursor: pointer;
+}

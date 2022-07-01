@@ -1,0 +1,125 @@
+
+/* table */
+.attend_mon_container {
+	padding: 10px;
+}
+
+.attend_mon_contents thead {
+  background: #333;
+  color: white;
+}
+.attend_mon_contents th {
+  padding: 3px;
+}
+
+.attend_mon_container tbody tr:hover {
+  background: #F9E79F;
+}
+
+.attend_mon_contents table, td, th {
+  border: 1px solid;
+  text-align: center;
+  font-size: 14px;
+}
+
+.attend_mon_contents table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attend_mon_contents a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/* time check */
+.time_in_present {
+  background: green;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+}
+.time_in_late {
+  background: #626567;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+}
+.time_in_absent {
+  background: red;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+}
+
+/* time link */
+.time_in_link a{
+  text-decoration: none;
+  background: #7DCEA0;
+  color: black;
+  display: block;
+}
+.time_in_link a:hover {
+  text-decoration: underline;
+}
+
+.time_out_link a{
+  text-decoration: none;
+  background: #F1948A;
+  color: black;
+  display: block;
+}
+.time_out_link a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* refresh */
+.refresh_attend {
+  margin-top: 20px;
+}
+.refresh_attend a{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #626567;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+/* Search */
+.search_bar {
+  margin-bottom: 20px;
+}
+.search_bar input {
+  padding: 5px;
+  width: 300px;
+}
+.search_bar button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.search_bar button:hover {
+  background: white;
+  color: black;
+}

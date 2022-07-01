@@ -1,0 +1,92 @@
+
+/* table */
+.eva_table {
+	font-size: 14px;
+}
+
+.eva_container {
+	padding: 10px;
+}
+
+.eva_container table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.eva_container tr:hover {background-color: #ddd;}
+
+.eva_container td {
+	border: 1px solid black;
+	font-family: arial;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.tbl_h {
+	background: #BDC3C7;
+	color: black;
+}
+.tbl_H_main {
+	background: #3498DB;
+	color: black;
+}
+
+/* name to ID */
+#tbl_h_1 {
+	display: block;
+}
+#tbl_h_2 {
+	display: none;
+}
+
+
+/* grade guide */
+.grade_guide_header {
+	padding: 5px;
+}
+.grade_guide_link {
+	padding: 5px;
+	width: 100px;
+}
+
+/* update btn */
+.update_work_eva_btn {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.update_work_eva_btn button {
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+/* table */
+#work_eva_tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#work_eva_tbl td, #work_eva_tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#work_eva_tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#work_eva_tbl tr:hover {background-color: #ddd;}
+
+#work_eva_tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}

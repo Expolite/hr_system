@@ -1,0 +1,25 @@
+
+
+.user_container {
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+}
+
+.user_box {
+	border: 1px solid black;
+	padding: 10px;
+	width: 150px;
+}
+
+.user_select_icon {
+	height: 100px;
+}
+
+.user_box_title {
+	text-decoration: none;
+	color: black;
+}
+.user_box_title:hover {
+	text-decoration: underline;
+}

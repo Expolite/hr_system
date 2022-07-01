@@ -1,0 +1,68 @@
+
+
+.login_container {
+	display: block;
+	max-width: 500px;
+	border: 5px solid #E74C3C;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 0px 10px 20px #FDEDEC;
+	background: white;
+	width:fit-content;
+	height:fit-content;
+	margin-top: 30px;
+}
+.login_container_2 {
+	border: 5px solid #F7DC6F;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.login_field {
+	margin-top: 20px;
+}
+.login_btn button {
+	display: block;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid black;
+	font-size: 20px;
+	width: 100%;
+	color: black;
+	background: white;
+	cursor: pointer;
+}
+.login_btn button:hover {
+	background: black;
+	color: white;
+}
+/* forgot password */
+.forgot_pass_link {
+	font-size: 12px;
+	text-decoration: none;
+}
+.forgot_pass_link:hover {
+	text-decoration: underline;
+}
+
+
+
+/* login notif */
+.login_error_msg {
+	/*background: #fc4f4f;*/
+	color: red;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+	.login_container {
+		margin-top: 10px;
+	}
+}

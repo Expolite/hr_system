@@ -1,0 +1,56 @@
+
+
+.work_assessment {
+	padding: 10px;
+}
+
+/* table */
+.work_assess_container {
+	border: 1px solid black;
+}
+
+.work_assess_container table {
+	border-collapse: collapse; 
+	width: 100%;
+	font-size: 14px;
+}
+
+.work_assess_container th {
+	background: #333;
+	color: white;
+	border: 1px solid white;
+}
+
+.work_assess_container th, td {
+	padding: 3px;
+}
+
+.work_assess_container td {
+	border: 1px solid black;
+}
+
+.work_assess_container tr:nth-child(even){background-color: #f2f2f2;}
+
+.work_assess_container tr:hover {background-color: #ddd;}
+
+/* stats */
+.deadline_stats_workAssessment td {
+	background: #F5B7B1;
+}
+.soon_stats_workAssessment td {
+	background: #F9E79F;
+}
+.done_stats_workAssessment td {
+	background: #85C88A;
+}
+
+/* date */
+.work_assessment_date {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.work_assessment_date span {
+	border: 1px solid black;
+	padding: 5px;
+}
+

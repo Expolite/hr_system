@@ -1,0 +1,77 @@
+
+body {
+	background-image: url('../img/main/bg_3.png'); 
+	background-repeat: no-repeat; 
+	/* background-size: cover;  */
+	background-size: 100% 100%; /* fit background */
+	background-position: center; 
+	background-attachment: fixed;
+}
+
+.user_pic {
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/* center contents of 3 grid selection */
+.admin_control_container {
+	/*width: 100%;
+	height: 400px;*/
+	/*margin-top: 20px;*/
+	width:fit-content;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+.admin_control_container_2 {
+	display: flex;
+	flex-direction: row;
+	width: 47%;
+	margin-top: 15vh;
+}
+
+.admin_box {
+	/* border: 1px solid black; */
+	/* border-radius: 5px; */
+	object-fit: fill;
+	padding: 10px;
+	width: 220px;
+	margin: 10px;
+	cursor: pointer;
+	/* background: white; */
+	/* box-shadow: 10px 10px 10px #BDC3C7; */
+}
+.admin_panel img {
+	height: 200px;
+	display: block;
+}
+.admin_panel_title {
+	margin-top: 10px;
+}
+.admin_panel_title a {
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+/* .admin_panel_title a:hover { */
+	/* text-decoration: underline; */
+/* } */
+
+
+
+@media (max-width: 800px) {
+	.admin_control_container_2 {
+		flex-direction: column;
+		width: 51%;
+		margin-bottom: 70px;
+		margin-top: auto;
+	}
+	body {
+
+	}
+}
