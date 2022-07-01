@@ -1,9 +1,9 @@
 # hr_system
 
 Default: <br>
-<div style="border: 1px solid white;">
-  Email : admin@admin.com <br>
-  Password : 111
-</div>
+Email : admin@admin.com <br>
+Password : 111
+
+<br>
 
 Databse file: hr_db.sql
